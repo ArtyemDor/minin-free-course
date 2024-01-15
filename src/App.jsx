@@ -1,7 +1,7 @@
 function App() {
   return (
     <div>
-      <h1>Hello React</h1>
+      <h1>Hello React with changes</h1>
     </div>
   )
 }
