@@ -1,4 +1,4 @@
-export default function WayToTeach({ title, description }) {
+function WayToTeach({ title, description }) {
   return (
     <li>
       <p>
@@ -17,3 +17,5 @@ export default function WayToTeach({ title, description }) {
 //       </li>
 //     )
 //   })
+
+export default WayToTeach
