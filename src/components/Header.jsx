@@ -1,7 +1,10 @@
-import logo from '../../public/logo-name.svg'
+import { useState } from 'react'
+import logo from '../logo-name.svg'
 
 export default function Header() {
-  const now = new Date()
+  const [now, setNow] = useState(new Date())
+
+  setInterval(() => setNow(new Date()), 1000)
 
   return (
     <header>

@@ -1,3 +1,5 @@
+import '../data.js'
+
 function WayToTeach({ title, description }) {
   return (
     <li>
