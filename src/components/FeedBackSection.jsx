@@ -11,9 +11,17 @@ const FeedBackSection = () => {
     setHasError(e.target.value.trim().length === 0)
   }
 
+  function ToggleError() {
+    setHasError((prev) => !prev) //false
+    //  setHasError(!hasError)    //true
+  }
+
   return (
     <section>
       <h3>Обратная связь</h3>
+
+      <Button onClick={ToggleError}>Toggle Error</Button>
+
       <form>
         <label htmlFor="name">Ваше имя</label>
         <input
