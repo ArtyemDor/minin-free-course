@@ -10,14 +10,4 @@ function WayToTeach({ title, description }) {
   )
 }
 
-//   return ways.map((el, index) => {
-//     return (
-//       <li key={index}>
-//         <p>
-//           <strong>{el.title}</strong> {el.description}
-//         </p>
-//       </li>
-//     )
-//   })
-
 export default WayToTeach
