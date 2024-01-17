@@ -12,6 +12,18 @@ export default function TabsSection({ active, onChange }) {
       >
         Обратная связь
       </Button>
+      <Button
+        isActive={active === 'projects'}
+        onClick={() => onChange('projects')}
+      >
+        Наши проекты
+      </Button>
+      <Button
+        isActive={active === 'mainproject'}
+        onClick={() => onChange('mainproject')}
+      >
+        Наш главный проект
+      </Button>
     </section>
   )
 }
