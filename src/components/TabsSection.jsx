@@ -18,11 +18,8 @@ export default function TabsSection({ active, onChange }) {
       >
         Наши проекты
       </Button>
-      <Button
-        isActive={active === 'mainproject'}
-        onClick={() => onChange('mainproject')}
-      >
-        Наш главный проект
+      <Button isActive={active === 'effect'} onClick={() => onChange('effect')}>
+        Effect
       </Button>
     </section>
   )
